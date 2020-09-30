@@ -15,3 +15,6 @@ body - story text (cleaned text)<br />
 title - story title<br /> 
 
 ## Features
+1. No duplicity of feed.
+2. Newsfeed document is stored in MongoDB database.
+3. Articles captured on a specific date can be retrieved.
