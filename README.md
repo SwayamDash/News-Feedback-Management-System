@@ -42,5 +42,6 @@ source - source of the news<br />
 * Open the browser and go to `http://localhost:8080/?date=mm/dd/yyyy`. <br />
    &nbsp;&nbsp; Eg: `http://localhost:8080/?date=09/22/2020` outputs all the articles published on 09/22/2020.
 * Give the date as an input given in the specified format(mm/dd/yyyy), to retrieve all the news stories published on the same day in JSON format.
+* Deactivate the environment after the process by typing `deactivate` in command prompt.
 
 ## Thank you
