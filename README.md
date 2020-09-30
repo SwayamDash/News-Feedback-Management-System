@@ -20,9 +20,11 @@ title - story title<br />
 3. Articles captured on a specific date can be retrieved.
 
 ## Contents
-* `news_scrapper,py` - to scrape the details from a given list of articles or news-websites
-* `Scrapped_NewsFeed` - gives all the scraped details in json format
-
+* `news_scrapper.py` - to scrape the details from a given list of articles or news-websites
+* `Scrapped_NewsFeed.json` - gives all the scraped details in .json format
+* `Flask_Server_API/Requirements.txt` - contains all the packages required to be installled, to run the program.
+* `db.py` - connects the API to MongoDB cluster 
+* `main.py` - Initiates a local host development server(Here: http://0.0.0.0:8080/)
 
 ## Running locally
 * Fork and clone the repo.
@@ -31,7 +33,7 @@ title - story title<br />
    &nbsp;&nbsp;  - For macOS or Linux: `python3 -m venv environment` <br />
    &nbsp;&nbsp;  - For windows: `py -m venv environment`
 * Activate the Flask-python environment by: <br /> 
-   &nbsp;&nbsp;  - For macOS or Linux:  `source environment/bin/activate`
+   &nbsp;&nbsp;  - For macOS or Linux:  `source environment/bin/activate` <br />
    &nbsp;&nbsp;  - For windows: `environment\Scripts\activate`
 * In the same environment, install all the packages specified in the Requirements.txt file.
 * Run `python main.py` to start the server
