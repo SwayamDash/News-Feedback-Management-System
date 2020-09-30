@@ -1,5 +1,3 @@
-#Install these packages in the working environment
-
 click==7.1.2
 dnspython==2.0.0
 Flask==1.1.2
