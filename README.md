@@ -37,7 +37,7 @@ source - source of the news<br />
 * Activate the Flask-python environment by: <br /> 
    &nbsp;&nbsp;  - For macOS or Linux:  `source environment/bin/activate` <br />
    &nbsp;&nbsp;  - For windows: `environment\Scripts\activate`
-* In the same environment, install all the packages specified in the `Requirements.txt` file.
+* In the same environment, install all the packages specified in the Requirements.txt file.
 * Run `python main.py` to start the server
 * Open the browser and go to `http://localhost:8080/?date=mm/dd/yyyy`. <br />
    &nbsp;&nbsp; Eg: `http://localhost:8080/?date=09/22/2020` outputs all the articles published on 09/22/2020.
