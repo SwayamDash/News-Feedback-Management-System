@@ -18,3 +18,9 @@ title - story title<br />
 1. No duplicity of feed.
 2. Newsfeed document is stored in MongoDB database.
 3. Articles captured on a specific date can be retrieved.
+
+## Usage
+* Fork and clone the repo.
+* cd to the project directory eg. cd File-Creator-CLI
+* Type npm i to install all packages.
+* Run npm start to start the server.
