@@ -6,13 +6,15 @@ A simple newsfeed management system which takes a text file containing the url o
 Then extracts the individual news or stories from the news article and store these feeds as JSON files by date.
 The JSON file contain fields such as current_date, story_date, story_time, body, title, source etc..
 
-Some fields are described here:<br /> 
-current_date - process date<br /> 
+The fields are described here:<br /> 
+ 
 author - article author<br /> 
+current_date - process date<br />
 story_date - extract story date from article<br /> 
 story_time - extract story time from article <br /> 
 body - story text (cleaned text)<br /> 
-title - story title<br /> 
+title - story title<br />
+source - source of the news<br />
 
 ## Features
 1. No duplicity of feed.
@@ -35,7 +37,10 @@ title - story title<br />
 * Activate the Flask-python environment by: <br /> 
    &nbsp;&nbsp;  - For macOS or Linux:  `source environment/bin/activate` <br />
    &nbsp;&nbsp;  - For windows: `environment\Scripts\activate`
-* In the same environment, install all the packages specified in the Requirements.txt file.
+* In the same environment, install all the packages specified in the `Requirements.txt` file.
 * Run `python main.py` to start the server
-* Open the browser and go to `http://localhost:8080/?date=dd/mm/yyyy`
-* Give the date as an input given in the specified format, to retrieve all the news stories for the same day in JSON format.
+* Open the browser and go to `http://localhost:8080/?date=mm/dd/yyyy`. <br />
+   &nbsp;&nbsp; Eg: `http://localhost:8080/?date=09/22/2020` outputs all the articles published on 09/22/2020.
+* Give the date as an input given in the specified format(mm/dd/yyyy), to retrieve all the news stories published on the same day in JSON format.
+
+## Thank you
